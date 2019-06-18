@@ -1,0 +1,65 @@
+body {
+    background-color: gray;
+    display: grid;
+    /* 2 COLUMNS-DEFINE WIDTH: aside:30% section: 70% */
+    grid-template-columns: auto 30%;
+    /* 4 ROWS-DEFINE HEIGHT: header:20% nav:10% section:auto aside:auto footer:15% */
+    grid-template-rows: 25% 10% auto 15%;
+    /* give each cell a name */
+    grid-template-areas: "header header"
+                         "nav nav"
+                         "section aside"
+                         "footer footer";
+}
+
+header, nav, section, aside, footer {
+    background-color: rgb(209, 203, 203);
+}
+header {
+    margin: 10px 0;
+    padding: 10px;
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+    align-items: center;
+    height: 100%;
+}
+
+/* Position links in a row by adding flex box to the unordered linst which holds our li tags */
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+
+li {
+    margin: 0 15px;
+}
+article {
+    background-color: gray;
+    padding: 10px;
+}
+
+h2, p {
+    background-color: rgb(209, 203, 203);
+}
+
+section {
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+    grid-area: section;
+}
+
+aside {
+    margin: 10px 0;
+    padding: 10px;
+    grid-area: aside;
+
+}
+
+footer {
+    grid-area: footer;
+    padding: 10px;
+}
