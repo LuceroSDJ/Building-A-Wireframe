@@ -7,7 +7,7 @@ Web Design skeleton using HTML &amp; CSS
 
 ## HIGHLITS
 ### `HTML 5:` 
-introduced new `structural elements` to give valuable meaning to the structure of our pages and to bring light to structural semantics.
+introduced new `structural elements` to give valuable meaning to the structure of our pages and to bring light to structural semantics. Semantic code describes the value of content on a page making it easier to understand what each piece of content is about.
 #### Memorize & Understand `structural elements:`
 ```
 * <header> ... </header>
