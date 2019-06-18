@@ -5,7 +5,7 @@ Web Design skeleton using HTML &amp; CSS
 `HTML 5`
 `CSS Grid`
 
-## HIGHLITS
+## HIGHLIGHTS
 ### `HTML 5:` 
 introduced new `structural elements` to give valuable meaning to the structure of our pages and to bring light to structural semantics. Semantic code describes the value of content on a page making it easier to understand what each piece of content is about.
 #### Memorize & Understand `structural elements:`
